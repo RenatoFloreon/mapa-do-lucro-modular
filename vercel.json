@@ -1,10 +1,3 @@
-/**
- * @file vercel.json
- * @description Configuração para deploy na Vercel
- * 
- * Este arquivo define as configurações para deploy na plataforma Vercel,
- * incluindo rotas, funções serverless e configurações de ambiente.
- */
 {
   "version": 2,
   "builds": [

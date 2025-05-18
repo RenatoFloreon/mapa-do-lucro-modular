@@ -1,0 +1,37 @@
+/**
+ * @file vercel.json
+ * @description Configuração para deploy na Vercel
+ * 
+ * Este arquivo define as configurações para deploy na plataforma Vercel,
+ * incluindo rotas, funções serverless e configurações de ambiente.
+ */
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/webhook.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "lib/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook.js"
+    },
+    {
+      "src": "/admin(.*)",
+      "dest": "/lib/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/lib/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

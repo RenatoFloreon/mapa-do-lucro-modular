@@ -1,9 +1,3 @@
-/**
- * @file package.json
- * @description Configuração do projeto e dependências
- * 
- * Este arquivo define as dependências, scripts e configurações do projeto.
- */
 {
   "name": "whatsapp-openai-assistente-evento-mapa-do-lucro",
   "version": "1.0.0",

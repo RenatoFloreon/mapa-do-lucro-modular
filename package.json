@@ -18,17 +18,19 @@
   "author": "Consciência.IA",
   "license": "ISC",
   "dependencies": {
-    "@sparticuz/chromium": "^119.0.0",
-    "axios": "^1.6.2",
-    "cheerio": "^1.0.0-rc.12",
-    "dotenv": "^16.3.1",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "ioredis": "^5.3.2",
-    "node-fetch": "^2.7.0",
-    "openai": "^4.20.1",
-    "puppeteer": "^21.5.2"
-  },
+  "@sparticuz/chromium": "^119.0.0",
+  "axios": "^1.6.2",
+  "cheerio": "^1.0.0-rc.12",
+  "dotenv": "^16.3.1",
+  "ejs": "^3.1.9",
+  "express": "^4.18.2",
+  "ioredis": "^5.3.2",
+  "node-fetch": "^2.7.0",
+  "openai": "^4.20.1",
+  "puppeteer": "^21.5.2",
+  "redis": "^4.6.7"
+},
+
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
